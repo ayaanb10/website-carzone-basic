@@ -95,6 +95,20 @@
     <a href="#" class="close">×</a>
     <img src="city.jpg" alt="Car Accessories Large">
 </div>
+<script>
+function searchProduct() {
+    let query = document.getElementById("searchBox").value.toLowerCase();
 
+    if (query.includes("seat")) {
+        alert("Showing Seat Covers");
+    } else if (query.includes("holder")) {
+        alert("Showing Phone Holders");
+    } else if (query.includes("accessory")) {
+        alert("Showing Accessories");
+    } else {
+        alert("No results found");
+    }
+}
+</script>
 </body>
 </html>
