@@ -100,3 +100,13 @@ form input[type="submit"] {
     color: white;
     text-decoration: none;
 }
+
+nav input {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+nav button {
+    padding: 5px;
+    cursor: pointer;
+}
